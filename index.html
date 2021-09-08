@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glee</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@700&family=Rubik:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img src="images/logo.svg" alt="">
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Home +</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Services</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Pages +</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">News</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a href="#" class="user-nav__link user-nav__link--search">
+            <img class="user-nav__img" src="images/icons/hearch.svg" alt="">
+          </a>
+          <div class="user-nav__inner">
+            <a href="#" class="user-nav__link user-nav__link--heart">
+              <img class="user-nav__img" src="images/icons/heart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+            <a href="#" class="user-nav__link user-nav__link--cart">
+              <img class="user-nav__img" src="images/icons/cart.svg" alt="">
+              <span class="user-nav__num">0</span>
+            </a>
+          </div>
+
+          <a href="#" class="user-nav__link user-nav__link--window">
+            <img class="user-nav__img" src="images/icons/window.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="slider">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__item">
+            <div class="slider__item-blog">
+              <div class="slider__content">
+                <h1 class="slider__title">
+                  SMART AND
+                  TRENDY
+                </h1>
+                <p class="slider__text">
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                </p>
+                <a class="slider__link" href="#">
+                  Shop Now
+                </a>
+              </div>
+              <div class="slider__images">
+                <img src="images/decor/1.jpg" alt="img sofa" class="slider__images-img">
+              </div>
+            </div>
+
+          </div>
+          <div class="slider__item">
+            <div class="slider__item-blog">
+              <div class="slider__content">
+                <h1 class="slider__title">
+                  SMART AND
+                  TRENDY
+                </h1>
+                <p class="slider__text">
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                </p>
+                <a class="slider__link" href="#">
+                  Shop Now
+                </a>
+              </div>
+              <div class="slider__images">
+                <img src="images/decor/1.jpg" alt="img sofa" class="slider__images-img">
+              </div>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item-blog">
+              <div class="slider__content">
+                <h1 class="slider__title">
+                  SMART AND
+                  TRENDY
+                </h1>
+                <p class="slider__text">
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                </p>
+                <a class="slider__link" href="#">
+                  Shop Now
+                </a>
+              </div>
+              <div class="slider__images">
+                <img src="images/decor/1.jpg" alt="img sofa" class="slider__images-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="skills">
+      <div class="container">
+        <div class="skills__items">
+          <div class="skills__item">
+            <h5 class="skills__item-title">
+              Support 24/7.
+            </h5>
+            <p class="skills__item-text">
+              Contact us 24 hours a day,
+              7 days a week.
+            </p>
+
+          </div>
+          <div class="skills__item skills__item--auto">
+            <h5 class="skills__item-title">
+              Delivery.
+            </h5>
+            <p class="skills__item-text">
+              Free shipping on all US order.
+            </p>
+
+          </div>
+          <div class="skills__item skills__item--sic">
+            <h5 class="skills__item-title">
+              100% Payment secure.
+            </h5>
+            <p class="skills__item-text">
+              We ensure secure payment
+              with PEV.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="products">
+      <div class="container">
+        <h3 class="products__title title">
+          Products of the week
+        </h3>
+        <div class="products__filter">
+          <button class="products__filter-btn products__filter-btn--active" data-filter="all">
+            All
+          </button>
+          <button class="products__filter-btn" data-filter=".category-a">
+            Furnitures
+          </button>
+          <button class="products__filter-btn" data-filter=".category-b">
+            Chairs
+          </button>
+          <button class="products__filter-btn" data-filter=".category-c">
+            Lighting
+          </button>
+          <button class="products__filter-btn" data-filter=".category-c">
+            Decor
+          </button>
+        </div>
+        <div class="products__items">
+          <div class="products__item mix category-a">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/1.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-a">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/2.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-b">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/3.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/4.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-b">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/5.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-b">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/6.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-c">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/7.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+          <div class="products__item mix category-c">
+            <a class="products__item-imglink" href="#">
+              <img src="images/products/8.jpg" alt="" class="products__item-img">
+            </a>
+            <div class="products__add">
+              <a class="products__add-link" href="#">
+                <svg width="16" height="16">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M3.7 6.08C4.06 6.01 4.38 6.21 4.45 6.56C4.54 7.14 4.8 7.63 5.23 8.05C5.65 8.44 6.17 8.73 6.72 8.83C7.05 8.89 7.27 9.22 7.21 9.57C7.14 9.89 6.85 10.13 6.49 10.08C5.68 9.92 4.94 9.54 4.35 8.95C3.77 8.37 3.38 7.63 3.22 6.82C3.15 6.46 3.34 6.14 3.7 6.08ZM6.98 0C10.45 0 13.26 2.8 13.26 6.25C13.26 7.18 13.06 8.06 12.69 8.86L15.03 10.89C16.73 12.64 15.77 14.16 15.32 14.61C14.9 15.06 13.33 16.02 11.59 14.32L9.53 11.97C8.75 12.31 7.89 12.51 6.98 12.51C3.51 12.51 0.7 9.71 0.7 6.25C0.7 2.79 3.51 0 6.98 0ZM12.53 13.51C12.82 13.84 13.65 14.38 14.41 13.74C14.62 13.56 15.04 12.67 14.18 11.87L12.02 9.99C11.63 10.5 11.18 10.95 10.65 11.33L12.53 13.51ZM6.98 11.2C9.72 11.2 11.95 8.98 11.95 6.25C11.95 3.52 9.72 1.31 6.98 1.31C4.24 1.31 2.01 3.52 2.01 6.25C2.01 8.98 4.24 11.2 6.98 11.2Z" />
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="20">
+
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+
+                </svg>
+              </a>
+              <a class="products__add-link" href="#">
+                <svg width="22" height="18">
+                  <path fill-pull="evenodd" fill="rgb(163, 187, 200)"
+                    d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                </svg>
+              </a>
+            </div>
+            <h5 class="products__item-title">
+              Wooden radio
+            </h5>
+            <div class="products__item-cont">
+              $29.00
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="object">
+      <div class="container">
+        <div class="object__inner">
+          <div class="object__item object__item-left">
+            <div class="object__item-box">
+              <img class="object__item-img" src="images/object-1.png" alt="">
+              <div class="object__item-content">
+                <h4 class="object__item-title">
+                  Mirum Notare Tellus
+                </h4>
+                <p class="object__item-text">
+                  LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight
+                </p>
+                <a class="object__item-link" href="#">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="object__item">
+            <div class="object__item-box">
+              <img class="object__item-img" src="images/object-2.png" alt="">
+              <div class="object__item-content">
+                <h4 class="object__item-title">
+                  Mirum Notare Tellus
+                </h4>
+                <p class="object__item-text">
+                  LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight
+                </p>
+                <a class="object__item-link" href="#">
+                  View More
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <section class="design">
+      <div class="container">
+        <h3 class="design__title title">
+          New Design
+        </h3>
+        <div class="design__filter">
+          <button class="design__filter-btn design__filter-btn--active" data-filter="all">All</button>
+          <button class="design__filter-btn" data-filter=".category-a">Furnitures</button>
+          <button class="design__filter-btn" data-filter=".category-b">Chairs</button>
+          <button class="design__filter-btn" data-filter=".category-c">Lighting</button>
+          <button class="design__filter-btn" data-filter=".category-d">Decor</button>
+        </div>
+        <div class="design__items">
+          <div class="design__item mix category-a">
+            <h5 class="design__item-title">
+              Beat Flat Pendant Black
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/1.jpg" alt="">
+          </div>
+          <div class="design__item mix category-b">
+            <h5 class="design__item-title">
+              Lampe Sur Pieds
+              Bamboo
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/2.jpg" alt="">
+          </div>
+          <div class="design__item  mix category-c">
+            <h5 class="design__item-title">
+              Rattan Rocking
+              Chair
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/3.jpg" alt="">
+          </div>
+
+          <div class="design__item mix category-d">
+            <h5 class="design__item-title">
+              Rattan Rocking
+              Chair
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/4.jpg" alt="">
+          </div>
+          <div class="design__item mix category-a">
+            <h5 class="design__item-title">
+              Rattan Rocking
+              Chair
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/5.jpg" alt="">
+          </div>
+          <div class="design__item mix category-b">
+            <h5 class="design__item-title">
+              Lampe Sur Pieds
+              Bamboo
+            </h5>
+            <a class="design__item-link" href="#">Classic</a>
+            <img class="design__item-img" src="images/design/6.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="video">
+      <div class="video__link-box">
+        <a class="video__link" data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+          <div class="video__img-box">
+            <img class="video__img" src="images/video-play.svg" alt="play">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <section class="our">
+      <div class="container">
+        <h3 class="our__title title">Our Insights & Articles</h3>
+        <div class="our__items">
+          <div class="our__item">
+            <img class="our__item-img" src="images/products/our-1.jpg" alt="">
+            <span class="our__item-new">NEWS</span>
+            <div class="our__box">
+              <h5 class="our__item-title">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam</h5>
+              <div class="our__item-add">
+                <div class="our__item-date">28 JANUARY, 2020</div>
+                <a class="our__item-name" href="#">BY ADMIN</a>
+              </div>
+            </div>
+          </div>
+          <div class="our__item">
+            <img class="our__item-img" src="images/products/our-2.jpg" alt="">
+            <span class="our__item-new">NEWS</span>
+            <div class="our__box">
+              <h5 class="our__item-title">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam</h5>
+              <div class="our__item-add">
+                <div class="our__item-date">28 JANUARY, 2020</div>
+                <a class="our__item-name" href="#">BY ADMIN</a>
+              </div>
+            </div>
+          </div>
+          <div class="our__item">
+            <img class="our__item-img" src="images/products/our-3.jpg" alt="">
+            <span class="our__item-new">NEWS</span>
+            <div class="our__box">
+              <h5 class="our__item-title">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam</h5>
+              <div class="our__item-add">
+                <div class="our__item-date">28 JANUARY, 2020</div>
+                <a class="our__item-name" href="#">BY ADMIN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="firms">
+  <div class="container"> 
+    <div class="firms__inner">
+      <img src="images/partners/1.png" alt="">
+      <img src="images/partners/2.png" alt="">
+      <img src="images/partners/3.png" alt="">
+      <img src="images/partners/4.png" alt="">
+      <img src="images/partners/5.png" alt="">
+    </div>   
+  </div>
+</div>
+
+</main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item footer__item--adress">
+          <a class="logo footer__logo" href="#">
+            <img src="images/logo.svg" alt="">
+          </a>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="8323475843">ADDRESS: 4772 Wines Lane
+                Houston, TX 77032</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="8323475843">Telephone: +832-347-5843</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="emailto:Email: contact@Glee.com">Email: contact@Glee.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item footer__item--services">
+          <h6 class="footer__title">
+            Services
+          </h6>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">About us</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Return Policy</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Our Blog</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Contact Us</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Terms & Condition</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item footer__item--account">
+          <h6 class="footer__title">
+            Account
+          </h6>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Your Account</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Checkout</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Login</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href=#">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item footer__item--form">
+          <h6 class="footer__title">
+            newsletter
+          </h6>
+          <form class="footer__form">
+            <p class="footer__form-text">
+              Subscribe by our newsletter and get
+              update protidin.
+            </p>
+            <input class="footer__form-input" type="text" placeholder="Email address">
+            <button class="footer__form-btn" type="submit">Subscribe</button>
+
+          </form>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <div class="footer__copy-inner">
+          <p class="footer__copy-text">
+            ©2020 CopyRight Example. All rights reserved.
+          </p>
+          <ul class="footer__copy-list">
+            <li class="footer__copy-item">
+              <a class="footer__copy-link footer__copy-link--line" href="#">Home</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__copy-link footer__copy-link--line" href="#">About</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__copy-link footer__copy-link--line" href="#">Blog</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__copy-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
